@@ -1,0 +1,59 @@
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1809/Red-raspberry-plate-cup_1920x1200.jpg");
+	background-size: 2500px;
+	color: #fff;
+	padding-left: 500px;
+	padding-right: 500px;
+	font-size: 20px;
+}
+
+p.signature{
+	padding-left: 700px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+
+ul.navigation{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+ul.navigation li{
+	display: inline-block;
+}
+
+ul.navigation li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s
+}
+
+ul.navigation li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+ul.navigation li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.Paris{
+	color: #fff;
+}
